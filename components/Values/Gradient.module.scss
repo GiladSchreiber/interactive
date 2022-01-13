@@ -1,0 +1,10 @@
+@import "../design/main.scss";
+
+.bottomRight {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  bottom: 0;
+  right: 0;
+  touch-action: none;
+}

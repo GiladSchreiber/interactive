@@ -1,0 +1,59 @@
+@import "../design/main.scss";
+
+.bottomRight {
+  position: absolute;
+  cursor: none;
+  width: 50%;
+  height: 50%;
+  bottom: 0;
+  right: 0;
+  background-color: transparent;
+  z-index: 0;
+}
+
+.header {
+  position: absolute;
+  font-family: "PoppinsMedium";
+  font-size: 26pt;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.target {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 25px;
+  background-color: transparent;
+  outline: 5px $markerColor solid;
+  transition: width 0.2s ease, height 0.2s ease, outline 0.2s ease;
+}
+
+.smallerTarget {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-radius: 10px;
+  background-color: $markerColor;
+  transition: width 0.2s ease, height 0.2s ease;
+}
+
+.horizontalLine {
+  position: absolute;
+  opacity: 0;
+  width: 30px;
+  height: 2.5px;
+  border-radius: 2.5px;
+  background-color: $markerColor;
+  transition: opacity 0.2s ease;
+}
+
+.verticalLine {
+  position: absolute;
+  opacity: 0;
+  height: 30px;
+  width: 2.5px;
+  border-radius: 2.5px;
+  background-color: $markerColor;
+  transition: opacity 0.2s ease;
+}

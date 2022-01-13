@@ -1,0 +1,24 @@
+@import "../design/main.scss";
+
+.arrow {
+  position: fixed;
+  bottom: -3px;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.shape {
+  fill: $darkColor;
+  transition: fill 0.2s ease;
+  &:hover {
+    fill: rgba($darkColor, 0.5);
+  }
+}
+
+.name {
+  position: absolute;
+  bottom: 10px;
+  color: $darkColor;
+  font-family: "PoppinsLightItalic";
+  font-size: 11pt;
+}

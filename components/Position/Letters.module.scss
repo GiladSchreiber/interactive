@@ -1,0 +1,14 @@
+@import "../design/main.scss";
+
+.topRight {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 0;
+  right: 0;
+  background-color: $darkColor;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}

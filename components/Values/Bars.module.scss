@@ -1,0 +1,12 @@
+@import "../design/main.scss";
+
+.bottomLeft {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  bottom: 0;
+  left: 0;
+  background-color: $brightColor;
+  outline: 2px $darkColor solid;
+  touch-action: none;
+}

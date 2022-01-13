@@ -1,0 +1,11 @@
+@import "../design/main.scss";
+
+.topLeft {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 0;
+  left: 0;
+  background-color: $darkColor;
+  z-index: 2;
+}
