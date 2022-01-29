@@ -14,9 +14,9 @@ function Type({ top, left, header, clicked, items }) {
               "px, " +
               (Math.random() * 300 - 70) +
               "px) scale(" +
-              (1.2 + Math.random() * 3) +
+              (1 + Math.random()) +
               ") rotate(" +
-              (Math.random() * 30 - 15) +
+              (Math.random() * 20 - 10) +
               "deg)",
         }}
       >

@@ -9,22 +9,22 @@ function Home() {
     setShowSecondHeader(true);
     setTimeout(() => {
       setSubheader("e");
-    }, 200);
+    }, 100);
     setTimeout(() => {
       setSubheader("ev");
-    }, 400);
+    }, 200);
     setTimeout(() => {
       setSubheader("eve");
-    }, 600);
+    }, 300);
     setTimeout(() => {
       setSubheader("even");
-    }, 800);
+    }, 400);
     setTimeout(() => {
       setSubheader("event");
-    }, 1000);
+    }, 500);
     setTimeout(() => {
       setSubheader("events");
-    }, 1200);
+    }, 600);
   }
   return (
     <div className={classes.homeWrapper}>
@@ -40,6 +40,13 @@ function Home() {
         />
       </div>
       <div className={classes.subHeader}>{subheader}</div>
+      <div
+        className={classes.barcode}
+        style={{
+          backgroundImage: "url('/interactive/assets/frame.png')",
+          opacity: showSecondHeader ? 1 : 0,
+        }}
+      />
     </div>
   );
 }

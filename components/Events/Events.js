@@ -33,7 +33,12 @@ function Events() {
       onClick={() => setEventType("left click")}
       onMouseMove={() => setEventType("mouse move")}
     >
-      <div className={classes.title}>EVENTS</div>
+      <div
+        className={classes.title}
+        onMouseOver={() => setEventType("mouse hover")}
+      >
+        WE WATCH YOU
+      </div>
       <div className={classes.eventTitle}>{eventType + "\ndetected"}</div>
     </div>
   );

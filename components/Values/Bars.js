@@ -6,7 +6,7 @@ function Bars() {
   const [offset, setOffset] = useState(0);
 
   function wheel(e) {
-    setOffset(offset + e.deltaY);
+    setOffset(Math.max(offset + e.deltaY, 0));
   }
 
   var bars = [];

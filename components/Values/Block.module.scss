@@ -3,4 +3,5 @@
 .block {
   position: absolute;
   background-color: $brightColor;
+  outline: $markerColor 10px solid;
 }

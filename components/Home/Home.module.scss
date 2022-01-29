@@ -39,3 +39,17 @@
   font-size: 80pt;
   color: $darkColor;
 }
+
+.barcode {
+  position: absolute;
+  left: 7%;
+  top: 60%;
+  width: 30%;
+  height: 30%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  mix-blend-mode: multiply;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
