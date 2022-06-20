@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/interactive/static/css/main.c6e614b0.css",
-    "main.js": "/interactive/static/js/main.63b005ba.js",
+    "main.css": "/interactive/static/css/main.c52f1797.css",
+    "main.js": "/interactive/static/js/main.582b1c3b.js",
     "static/media/Poppins-LightItalic.ttf": "/interactive/static/media/Poppins-LightItalic.5ccd942a8800a68d44b6.ttf",
     "static/media/Poppins-Medium.ttf": "/interactive/static/media/Poppins-Medium.9e1bb626874ed49aa343.ttf",
     "static/media/Poppins-SemiBold.ttf": "/interactive/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
     "index.html": "/interactive/index.html",
-    "main.c6e614b0.css.map": "/interactive/static/css/main.c6e614b0.css.map",
-    "main.63b005ba.js.map": "/interactive/static/js/main.63b005ba.js.map"
+    "main.c52f1797.css.map": "/interactive/static/css/main.c52f1797.css.map",
+    "main.582b1c3b.js.map": "/interactive/static/js/main.582b1c3b.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6e614b0.css",
-    "static/js/main.63b005ba.js"
+    "static/css/main.c52f1797.css",
+    "static/js/main.582b1c3b.js"
   ]
 }
